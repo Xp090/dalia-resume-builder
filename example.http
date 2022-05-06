@@ -1,0 +1,38 @@
+### Status
+GET https://dalia-resume-builder.herokuapp.com/api/resumeBuilder
+
+
+### Update 1
+POST https://dalia-resume-builder.herokuapp.com/api/resumeBuilder/personalInfo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+Content-Type: application/json
+
+{
+  "data": {
+    "firstName": "Mohamed",
+    "lastName": "Amir",
+    "email": "example@mail.com",
+    "phone": "12312412",
+    "birthdate": "2022-05-06T17:03:16.679Z",
+    "address": "15 Wall Street"
+  }
+}
+
+
+### Update 2
+POST https://dalia-resume-builder.herokuapp.com/api/resumeBuilder/education
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+Content-Type: application/json
+
+{
+  "data": [{
+    "degree": "Computer Science",
+    "school": "Cairo University",
+    "graduationYear": "2022"
+  },{
+    "degree": "Mechanical Engineering",
+    "school": "Alexandria University",
+    "graduationYear": "2015"
+  }]
+
+}

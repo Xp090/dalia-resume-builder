@@ -1,0 +1,521 @@
+GET https://dalia-resume-builder.herokuapp.com/api/resumeBuilder
+
+<> 2022-05-06T231113.201.json
+
+###
+
+GET http://localhost:7000/api/resumeBuilder
+
+<> 2022-05-06T222505.201.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/education
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+Content-Type: application/json
+
+{
+  "data": [{
+    "degree": "Computer Science",
+    "school": "Cairo University",
+    "graduationYear": "2022"
+  },{
+    "degree": "Mechanical Engineering",
+    "school": "Alexandria University",
+    "graduationYear": "2015"
+  }]
+
+}
+
+<> 2022-05-06T195838.200.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+
+<> 2022-05-06T184356.201.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+
+<> 2022-05-06T183225.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/personalInfoz
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+Content-Type: application/json
+
+{
+  "data": {
+    "firstName": "Mohamed",
+    "lastName": "Amir",
+    "email": "m@m.com",
+    "phone": "12312412",
+    "birthday": "2022-05-05T17:03:16.679Z",
+    "address": "1 sdgfds st"
+  }
+}
+
+<> 2022-05-06T174355.400.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/personalInfoz
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+Content-Type: application/json
+
+{
+  "data": {
+    "firstName": "Mohamed",
+    "lastName": "Amir",
+    "email": "m@m.com",
+    "phone": "12312412",
+    "birthday": "2022-05-05T17:03:16.679Z",
+    "address": "1 sdgfds st"
+  }
+}
+
+###
+
+POST http://localhost:7000/resumeBuilder/personalInfoz
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+Content-Type: application/json
+
+{
+  "data": {
+    "firstName": "Mohamed",
+    "lastName": "Amir",
+    "email": "m@m.com",
+    "phone": "12312412",
+    "birthday": "2022-05-05T17:03:16.679Z",
+    "address": "1 sdgfds st"
+  }
+}
+
+###
+
+POST http://localhost:7000/resumeBuilder/personalInfoz
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+Content-Type: application/json
+
+{
+  "data": {
+    "firstName": "Mohamed",
+    "lastName": "Amir",
+    "email": "m@m.com",
+    "phone": "12312412",
+    "birthday": "2022-05-05T17:03:16.679Z",
+    "address": "1 sdgfds st"
+  }
+}
+
+###
+
+POST http://localhost:7000/resumeBuilder/personalInfo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+Content-Type: application/json
+
+{
+  "data": {
+    "firstName": "Mohamed",
+    "lastName": "Amir",
+    "email": "m@m.com",
+    "phone": "12312412",
+    "birthday": "2022-05-05T17:03:16.679Z",
+    "address": "1 sdgfds st"
+  }
+}
+
+<> 2022-05-06T172727.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/personalInfo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+Content-Type: application/json
+
+{
+  "data": {
+    "firstName": "Mohamed",
+    "lastName": "Amir",
+    "email": "m@m.com",
+    "phone": "12312412",
+    "birthday": "2022-05-05T17:03:16.679Z",
+    "address": "1 sdgfds st"
+  }
+}
+
+<> 2022-05-06T172359.200.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzUzNmNlODU5M2NjN2VlZDAwM2ViMyIsImlhdCI6MTY1MTg0ODkxMCwic3ViIjoiNjI3NTM2Y2U4NTkzY2M3ZWVkMDAzZWIzIn0.S_IOUmD1GCRyvnzuTxot9Wv2_DHg9wozh_wj42SyyXc
+
+<> 2022-05-06T172235.200.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+
+<> 2022-05-06T165511.201.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-06T163055.200.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-06T162847.200.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-06T162744.200.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-06T162719.200.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-06T154143.200.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-05T211652.200.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-05T211454.500.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-05T211413.500.json
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-05T211201.500.html
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-05T210957.500.html
+
+###
+
+GET http://localhost:7000/resumeBuilder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+
+<> 2022-05-05T210656.500.html
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/experience
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{
+  "data": [
+    {
+      "jobTitle": "Dev",
+      "entityName": "Google",
+      "startDate": "2022-05-05T17:03:16.679Z"
+    }
+  ]
+}
+
+<> 2022-05-05T193610.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/education
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{
+  "data": [
+    {
+      "degree": "Engineering",
+      "school": "Engineering School",
+      "graduationYear": "aaa"
+    }
+  ]
+}
+
+<> 2022-05-05T192947.400.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/education
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{
+  "data": [
+    {
+      "degree": "Engineering",
+      "school": "Engineering School",
+      "graduationYear": 2010
+    }
+  ]
+}
+
+<> 2022-05-05T192615.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/education
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{
+  "data": [
+    {
+      "degree": "Engineering",
+      "school": "Engineering School",
+      "graduationYear": 2010
+    }
+  ]
+}
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/education
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{
+  "data": [
+    {
+      "degree": "Engineering",
+      "school": "Engineering School",
+      "graduationYear": 2010
+    }
+  ]
+}
+
+<> 2022-05-05T191400.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/personalInfo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{
+  "data": {
+    "firstName": "Mohamed",
+    "lastName": "Amir",
+    "email": "m@m.com",
+    "phone": "12312412",
+    "birthday": "2022-05-05T17:03:16.679Z",
+    "address": "1 sdgfds st"
+  }
+}
+
+<> 2022-05-05T190354.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{
+  "data": ["fast"]
+}
+
+<> 2022-05-05T190109.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{
+  "data": ["fast"]
+}
+
+<> 2022-05-05T165056.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{
+  "data": ["fast"]
+}
+
+<> 2022-05-05T165009.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": ["asdasd"]}
+
+<> 2022-05-05T164930.400.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": ["asdasd"]}
+
+<> 2022-05-05T164221.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": []}
+
+<> 2022-05-05T164106.400.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": []}
+
+<> 2022-05-05T164058.400.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": 123}
+
+<> 2022-05-05T164050.400.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": 123}
+
+<> 2022-05-05T164023.400.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": 123}
+
+<> 2022-05-05T163801.400.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": 123}
+
+<> 2022-05-05T163748.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": 123}
+
+<> 2022-05-05T163716.200.json
+
+###
+
+POST http://localhost:7000/resumeBuilder/update/skills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzE2NDVjMzEwMzEyYWVjOTE5ZjhmOCIsImlhdCI6MTY1MTU5ODQzNCwic3ViIjoiNjI3MTY0NWMzMTAzMTJhZWM5MTlmOGY4In0.8HHub31zv-OpgFdPUT3Di7ecDlXJk4k3_5zcPhnf2dY
+Content-Type: application/json
+
+{ "test": 123}
+
+<> 2022-05-05T163617.200.json
+
+###
+
